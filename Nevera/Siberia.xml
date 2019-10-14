@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siberia>
+  <nevera>
+		<begudes>
+      <aigua capacitat="3 ampolles">
+        <ampolla estat="plena"/>
+        <ampolla estat="mitja"/>
+        <ampolla estat="buida"/>
+      </aigua>
+      <llet estat="superior"/>
+      <vi tipus="negre"/>
+      <refrescos caducitat="5/2020"/>
+    </begudes>
+    <verdures>
+      <trinxat/>
+      <mongeta/>
+    </verdures> 
+    <fruita data="14/10/2019" tipus="poma"/>
+    <carn>
+      <vedella quantitat="5kg" data="14/10/2019"/>
+      <ovella quantitat="2kg" data="14/10/2019"/>
+      <gallina quantitat="1kg" data="14/10/2019"/>
+    </carn>
+    <ouera quantitat="12"/>
+    <varis tipus="sopa"/> 
+  </nevera>
+  <congelador>
+    <gel quantitat="2kg" disponible="Si"/>
+    <peix tipus="Salmo" quantitat="4 Unitats" data="14/10/2019" caducitat="5/2020"/>
+    <carn_congelada>
+      <vedella quantitat="2kg" data="04/10/2019"/>
+      <ovella quantitat="1kg" data="04/10/2019"/>
+      <gallina quantitat="1kg" data="04/10/2019"/>
+    </carn_congelada>
+    <verdures_congelades>
+      <brocoli quantitat="2kg" data="04/10/2019"/>
+      <pesols quantitat="1.5kg" data="04/10/2019"/>
+    </verdures_congelades>
+    <varis_congelats>
+      <gelat gust="maduixa" quantitat="5 Unitats"/>
+      <croquetes tipus="pollaste" quantitat="30 Unitats"/>
+      <pizza tipus="4 Formatges" quantitat="2 Unitats"/>
+    </varis_congelats>
+  </congelador>
+  <dispensador>
+		<gel quantitat="2kg" disponible="Si"/>
+    <aigua disponible="Si"/>
+  </dispensador>
+</Siberia>
